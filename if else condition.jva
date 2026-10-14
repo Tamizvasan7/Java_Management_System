@@ -1,0 +1,16 @@
+public class Main
+{
+public static void main(String[]args)
+{
+int a=456;
+int b=876;
+int c=678;
+if(a>b && a<c)
+{System.out.println("a");
+}
+else if(a<b && c<b)
+{System.out.println("b");
+}
+else
+{System.out.println("c");
+}}}
