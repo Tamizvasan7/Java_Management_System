@@ -1,0 +1,29 @@
+import java.util.*;
+ public class calculator{
+    static void add(int a, int b){
+    System.out.println("a+b:"+(a+b));}
+    static void sub(int a, int b){
+    System.out.println("a-b:"+(a-b)); 
+    }
+    static void multi(int a, int b){
+    System.out.println("a*b:"+(a*b));
+    }
+    static void divi(int a, int b){
+      if(b!=0){
+        System.out.println("a/b:"+(a/(double)b));
+      }else{
+        System.out.println("divide by zero");
+      }
+    }
+    public static void main(String[]args){
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter first number:");
+int a = scan.nextInt();
+System.out.println("Enter second number:");
+int b = scan.nextInt();
+add(a,b);
+sub(a,b);
+multi(a,b);
+divi(a,b);
+}
+ }
